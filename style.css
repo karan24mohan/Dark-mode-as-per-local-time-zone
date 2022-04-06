@@ -1,0 +1,35 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  background-color: aliceblue;
+}
+
+.places_heading {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.places_heading h1 {
+  font-weight: bold;
+}
+
+.places {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.dark {
+  background-color: rgb(49, 49, 49);
+  color: white;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+
+.card:hover {
+  transition: 0.3s;
+  transform: scale(1.1);
+  cursor: pointer;
+}
